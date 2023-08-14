@@ -111,6 +111,7 @@
 (library
  (name yojson)
  (public_name yojson)
+ (modes native melange)
  (modules yojson t basic safe raw common codec)
  (synopsis "JSON parsing and printing")
  ; (libraries seq)
