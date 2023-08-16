@@ -20,6 +20,7 @@ yojson package.")
   (depends
     (ocaml (>= 4.02.3))
     (cppo :build)
+    melange
     (alcotest (and :with-test (>= 0.8.5)))
     (seq (>= 0.2.2))))
 
